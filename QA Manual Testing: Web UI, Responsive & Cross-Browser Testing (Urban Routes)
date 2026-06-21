@@ -1,0 +1,28 @@
+QA Manual Testing: Web UI, Responsive & Cross-Browser Testing (Urban Routes)
+📌 Project Overview
+This project focuses on the comprehensive User Interface (UI) and visual validation of the Urban Routes web application. The main goal was to ensure a seamless, functional, and visually consistent user experience across multiple screen resolutions (Responsive Web Design) and different web browsers (Cross-Browser Testing).
+---
+🛠️ Skills & Concepts Applied
+UI/UX Visual Testing: Validating alignment, fonts, colors, button states (hover, active, disabled), and overlapping elements.
+Responsive Web Design (RWD) Testing: Simulating mobile, tablet, and desktop viewports to verify structural adaptability.
+Cross-Browser Testing: Executing identical test scenarios across multiple browser engines to identify compatibility glitches.
+Defect Documentation: Reporting UI-specific bugs with detailed environmental logs (OS, Browser version, Viewport size).
+---
+📂 Test Strategy & Execution
+1. Cross-Browser Analysis
+Tests were executed across the following environments to ensure technical compatibility:
+Google Chrome (Blink Engine)
+Mozilla Firefox (Gecko Engine)
+Safari / WebKit (Mobile simulation via DevTools)
+2. Responsive UI Validation
+Using browser Developer Tools (DevTools), the application layout was analyzed under standard device breakpoints:
+Desktop: 1440p / 1080p (Full layout evaluation).
+Tablet: iPad Air / Mini portrait mode (Validating side panels hiding into hamburger menus).
+Mobile: iPhone 13/14 & Samsung Galaxy S20/S22 (Checking element scaling, touch targets, and scrolling behaviors).
+---
+📊 Artifacts & Deliverables
+UI/UX Cross-Browser Checklist: A matrix tracking UI behaviors and functional consistency across different browser layouts.
+Responsive Layout Bug Reports: Documentation of visual bugs found when switching from desktop viewports to mobile configurations.
+---
+🚀 Key Takeaways
+This sprint expanded my QA mindset into the front-end presentation layer. I learned that functionality is only half the battle; if a button scales incorrectly or shifts out of a mobile view, the user journey breaks. I mastered the use of Browser DevTools to isolate layout issues and report them accurately to development teams.
